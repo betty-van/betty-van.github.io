@@ -1,0 +1,396 @@
+body {
+    background-color:#263547;
+    color: rgb(240, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    padding: 0px;
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+i {
+    font-size: 2em;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(241, 224, 224);
+    width: 100%;
+    min-height: 3vh;
+    background-color:#263547 ;
+}
+navbar {
+    height: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    align-items: center;
+    word-spacing: 1em;
+    font-size: 1.5em;
+}
+
+navbar a {
+    color: #CCEBF3;
+}
+
+navbar a:hover {
+    color: #FACAC2;
+}
+
+.logo {
+    padding-left: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.logo:hover {
+    width: 105px;
+    height: 105px;
+}
+
+.top-image {
+    width: 95%;
+    height: auto;
+}
+
+.navbutton {
+    background-color: #263547;
+    color: white;
+    border: 1px solid #CCEBF3;
+    box-shadow: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    margin-left: 10px;
+    display: inline-block;
+    word-spacing: 0em;
+}
+
+.top-intro {
+    text-align: center;
+    background-color: #263547;
+    padding: 50px 0;
+}
+
+.top-intro h1 {
+    color: #CCEBF3;
+}
+
+.top-intro p {
+    font-size: 2em;
+}
+
+.projects {
+    background-image: url(images/projects-bg-image.jpg);
+    color: #263547;
+    height: auto;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 1em 1em;
+    padding-bottom: 50px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    width: 30%;
+    height: auto;
+}
+
+
+
+.col img {
+    width: 100%;
+    height: auto;
+    box-shadow: 10px 10px #1b314ba6;
+}
+
+.col img:hover {
+    box-shadow: none;
+    border: 2px solid #263547;
+}
+
+.about {
+    background-color: #263547;
+    color: #FACAC2;
+    padding: 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+
+.title:hover {
+    color:#CCEBF3;
+}
+.about a {
+    color: #CCEBF3;
+}
+
+.about a:hover {
+    color: #FACAC2;
+}
+
+.skills {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    background-image: url(images/projects-bg-image.jpg);
+    color: #263547;
+    padding: 10px 15px;
+}
+
+.skillbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-list {
+    width: 30%;
+}
+
+.progress-bars {
+    width: 70%;
+}
+
+.bar1 {
+    text-align: center;
+    color:#CCEBF3;
+    width: 70%;
+    height: 1.5em;
+    background-color: #263547;
+}
+
+.bar2 {
+    text-align: center;
+    color:#CCEBF3;
+    width: 50%;
+    height: 1.5em;
+    background-color: #263547;
+}
+
+.bar3 {
+    text-align: center;
+    color:#CCEBF3;
+    width: 85%;
+    height: 1.5em;
+    background-color: #263547;
+}
+
+.bar4 {
+    text-align: center;
+    color:#CCEBF3;
+    width: 30%;
+    height: 1.5em;
+    background-color: #263547;
+}
+
+
+
+.contact {
+    background-color: #263547;
+    color: #FACAC2;
+    text-align: center;
+    word-spacing: 10px;
+    padding-bottom: 50px;
+}
+
+.contact a {
+    color:#CCEBF3;
+}
+
+.contact a:hover {
+    color: #FACAC2;
+}
+
+.footer {
+    background-color: #FACAC2;
+    color: #263547;
+    padding-top: 20px;
+    font-size: 0.8em;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+}
+
+/* Tablet View */
+@media (max-width: 770px){
+    body {
+        overflow-x: hidden;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .top-intro p {
+        font-size: 1.5em;
+    }
+
+    .col {
+        width: 45%;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        padding-top: 20px;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+    }
+
+    navbar {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+        box-sizing: border-box;
+
+    }
+
+    .mobile-nav a { 
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size: 20px;
+        font-size: 2em;
+    }
+
+    .burger-menu {
+        display: block;
+        padding-top: 30px;
+        padding-right: 30px;
+        cursor: pointer;
+    }
+
+    .burger-menu div {
+        height: 4px;
+        width: 40px;
+        background-color: #FACAC2;
+        margin: 10px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-links {
+        justify-content: space-around;
+        position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 10vh;
+        background-color: #263547;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li {
+        list-style: none;
+        height: 8%;
+        align-items: center;
+        opacity: 0;
+    }
+    
+    .logo {
+        padding: 20px 20px;
+    }
+
+    @keyframes navLinkFade {
+        from {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        to {
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+
+    .toggle .line1 {
+        transform: rotate(-45deg) translate(-15px, 5px);
+    }
+
+    .toggle .line2 {
+        opacity: 0;
+    }
+
+    .toggle .line3 {
+        transform: rotate(+45deg) translate(-15px, -5px);
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+        visibility: visible;
+    }
+}
+
+
+
+
+/* Mobile View */
+@media (max-width: 462px){
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .top-intro p {
+        font-size: 1em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .col {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .container {
+        padding-top: 40px;
+    }
+
+    header {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .logo {
+        padding: 10px 0;
+    }
+
+    .nav-links {
+        height: 50vh;
+    }
+
+    
+}
