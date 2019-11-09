@@ -212,7 +212,7 @@ navbar a:hover {
     background-color: #263547;
     color: #FACAC2;
     text-align: center;
-    word-spacing: 10px;
+    word-spacing: 20px;
     padding-bottom: 50px;
 }
 
@@ -236,6 +236,7 @@ navbar a:hover {
     margin-right: auto;
     width: 98%;
 }
+
 
 /* Tablet View */
 @media (max-width: 770px){
