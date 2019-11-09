@@ -115,7 +115,7 @@ navbar a:hover {
 }
 
 .col {
-    width: 30%;
+    width: 23%;
     height: auto;
 }
 
@@ -161,18 +161,18 @@ navbar a:hover {
     padding: 10px 15px;
 }
 
-.skillbox {
-    display: flex;
-    justify-content: space-between;
-}
-
 .skill-list {
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
 }
 
-.progress-bars {
-    width: 70%;
+.skill-list p {
+    width: 30%;
+    text-align: center;
 }
+
 
 .bar1 {
     text-align: center;
